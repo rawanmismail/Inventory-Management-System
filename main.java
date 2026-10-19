@@ -35,6 +35,11 @@ public class InvetoryManager {
         System.out.println("");
         System.out.println("Enter your choice (1-8): ");
 
+        //User Input 
+        while (!scanner.hasNextInt()) { //while Loop
+            scanner.next();
+            System.out.println("Invalid Option. Enter a number (1-8)");
+        }
 
         scanner.close();
     }
