@@ -20,7 +20,21 @@ public class InvetoryManager {
         System.out.println("================================");
         System.out.println("Welcome! Manage your invetory here.");
 
-        
+        //Menu Options
+        System.out.println("");
+        System.out.println("========== MENU OPTIONS ==========");
+        System.out.println("1. Add A Product");
+        System.out.println("2. View All Products");
+        System.out.println("3. Search A Product");
+        System.out.println("4. Update Stock");
+        System.out.println("5. Remove A Product");
+        System.out.println("6. Low Stock Alert");
+        System.out.println("7. Invetory Summary");
+        System.out.println("8. Exit");
+        System.out.println("===================================");
+        System.out.println("");
+        System.out.println("Enter your choice (1-8): ");
+
 
         scanner.close();
     }
