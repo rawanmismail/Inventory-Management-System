@@ -13,8 +13,14 @@ public class InvetoryManager {
         double productPrice = new double[MAX_PRODUCTS];
         int[] productQuantity = new int[MAX_PRODUCTS];
         int[] minStockLevel = new int[MAX_PRODUCTS];
-        
 
+        //Greeting 
+        System.out.println("================================");
+        System.out.println("   INVETORY MANAGEMENT SYSTEM   ");
+        System.out.println("================================");
+        System.out.println("Welcome! Manage your invetory here.");
+
+        
 
         scanner.close();
     }
