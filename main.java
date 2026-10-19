@@ -4,7 +4,7 @@ public class InvetoryManager {
         Scanner scanner = new Scanner (System.in);
 
         //Final Constant 
-        final int MAX_PRODUCTS = 100;
+        final int MAX_PRODUCTS = 100; //Maximum 100 products 
 
 
 
