@@ -51,7 +51,6 @@ P2       Keyboard             Accessories       50.00     20      5  OK
 
 ## How It Works
 
-- **Parallel arrays:** six arrays (`productIds`, `productNames`, `productCategories`, `productPrices`, `productQuantities`, `minStockLevels`) store the data. Index `i` in every array refers to the same product, and `productCount` tracks how many slots are in use.
 - **Main loop:** a `do-while` loop shows the menu until the user chooses Exit, and a `switch` runs the selected option.
 - **Searching:** a loop finds a product's index (or `-1` if not found) using `.equals()` for exact matches and `toLowerCase().contains()` for search.
 - **Removing:** later products are shifted one slot to the left in all arrays, then the count is reduced.
